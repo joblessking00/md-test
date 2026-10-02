@@ -77,3 +77,13 @@ solid tetrahedron
   endfacet
 endsolid tetrahedron
 ```
+
+
+
+```mermaid
+flowchart LR
+    A(("⭐")) --> B(("😀"))
+    B --> C{"⭐ 별점"}
+    C --> D["😀 만족"]
+    C --> E["😡 불만"]
+```
