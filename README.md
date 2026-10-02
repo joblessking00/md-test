@@ -1,3 +1,37 @@
+# MD Editer for Git
+
+위쪽 도구로 **굵게**, *기울임*, 목록, 표를 넣고 **도형 그리기**로 다이어그램을 그려 보세요.
+
+## 진행 순서
+
+```mermaid
+flowchart LR
+    A[" "]
+    B@{ shape: tri, label: "최종 출력" }
+    C[" "]
+    D["깃허브"]
+    C --> B
+    D --> C
+```
+
+- [x] 문서 뼈대 잡기
+- [x] 다이어그램 다듬기
+
+---
+
+---
+
+---
+
+---
+
+---
+
+> [!NOTE]
+> 내용을 입력하세요
+
+
+
 # 깃허브에서 그려지는 것들
 ```mermaid
 %%{init: {"themeVariables": {"cScale0": "#FFD23F", "radar": {"axisStrokeWidth": 0, "graticuleOpacity": 0, "graticuleStrokeWidth": 0, "curveOpacity": 1}}}}%%
