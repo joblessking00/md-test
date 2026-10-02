@@ -1,10 +1,79 @@
-# 찌그러진 별
+# 깃허브에서 그려지는 것들
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <polygon
-    points="92,10 122,74 180,83 138,118 148,182 103,130 43,167 63,110 29,67 82,72"
-    fill="#FFD23F"
-    stroke="#333333"
-    stroke-width="5"
-    stroke-linejoin="round" />
-</svg>
+## 머메이드 (도표)
+
+```mermaid
+flowchart LR
+    A[아이디어] --> B{그림이 필요한가}
+    B -- 예 --> C[SVG 파일로 저장]
+    B -- 아니오 --> D[글로 작성]
+    C --> E[README에서 불러오기]
+    D --> E
+```
+
+## GeoJSON (지도 위 도형)
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "한라산" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.53, 33.36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "제주도 영역" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [126.15, 33.25],
+          [126.95, 33.25],
+          [126.95, 33.57],
+          [126.15, 33.57],
+          [126.15, 33.25]
+        ]]
+      }
+    }
+  ]
+}
+```
+
+## STL (3D 모델)
+
+```stl
+solid tetrahedron
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 5 8.66 0
+      vertex 10 0 0
+    endloop
+  endfacet
+  facet normal 0 -0.943 0.334
+    outer loop
+      vertex 0 0 0
+      vertex 10 0 0
+      vertex 5 2.89 8.16
+    endloop
+  endfacet
+  facet normal 0.816 0.471 0.333
+    outer loop
+      vertex 10 0 0
+      vertex 5 8.66 0
+      vertex 5 2.89 8.16
+    endloop
+  endfacet
+  facet normal -0.816 0.471 0.333
+    outer loop
+      vertex 5 8.66 0
+      vertex 0 0 0
+      vertex 5 2.89 8.16
+    endloop
+  endfacet
+endsolid tetrahedron
+```
