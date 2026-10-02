@@ -5,7 +5,7 @@ block-beta
     space:2 B[" "]:2 space:2
     space:5 C["깃허브"]
     space:6
-    space:3 D[" "] space:2
+    space:3 D[" "] space:20
     B --> A
     B -.-> D
     C --> B
