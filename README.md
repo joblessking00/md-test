@@ -97,3 +97,25 @@ flowchart LR
     C --> D["😀 만족"]
     C --> E["😡 불만"]
 ```
+
+
+
+
+```mermaid
+%%{init: {"quadrantChart": {"pointLabelFontSize": 1, "pointTextPadding": 0}, "themeVariables": {"quadrant1Fill": "#ffffff", "quadrant2Fill": "#ffffff", "quadrant3Fill": "#ffffff", "quadrant4Fill": "#ffffff", "quadrantInternalBorderStrokeFill": "#ffffff", "quadrantExternalBorderStrokeFill": "#ffffff", "quadrantPointTextFill": "#FFD23F"}}}%%
+quadrantChart
+    eyeL: [0.36, 0.63] radius: 16, color: #333333
+    eyeR: [0.64, 0.63] radius: 16, color: #333333
+    m1: [0.30, 0.40] radius: 7, color: #333333
+    m2: [0.35, 0.33] radius: 7, color: #333333
+    m3: [0.42, 0.29] radius: 7, color: #333333
+    m4: [0.50, 0.275] radius: 7, color: #333333
+    m5: [0.58, 0.29] radius: 7, color: #333333
+    m6: [0.65, 0.33] radius: 7, color: #333333
+    m7: [0.70, 0.40] radius: 7, color: #333333
+    face: [0.5, 0.5] radius: 170, color: #FFD23F, stroke-color: #333333, stroke-width: 6px
+```
+
+
+
+
