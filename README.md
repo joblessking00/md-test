@@ -1,5 +1,15 @@
 # 깃허브에서 그려지는 것들
-
+```mermaid
+%%{init: {"themeVariables": {"cScale0": "#FFD23F", "radar": {"axisStrokeWidth": 0, "graticuleOpacity": 0, "graticuleStrokeWidth": 0, "curveOpacity": 1}}}}%%
+radar-beta
+    axis a[" "], b[" "], c[" "], d[" "], e[" "], f[" "], g[" "], h[" "], i[" "], j[" "]
+    curve s[" "]{100, 38, 90, 45, 105, 35, 95, 42, 85, 40}
+    max 110
+    min 0
+    showLegend false
+    graticule polygon
+    ticks 1
+```
 ## 머메이드 (도표)
 
 ```mermaid
