@@ -13,4 +13,4 @@
 > 내용을 입력하세요
 
 > [!CAUTION]
-> <h4 align="center">내용을 입력하세요</h4>
+> <h1 align="center">내용을 입력하세요</h1>
