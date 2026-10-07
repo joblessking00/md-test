@@ -13,4 +13,4 @@
 > 내용을 입력하세요
 
 > [!CAUTION]
-> <h1 align="center"><i><del>내용을 입력하세요</del></i></h1>
+> <h1 align="center"><code>내용을 입력하세요</code></h1>
