@@ -1,6 +1,19 @@
 <details>
 <summary>눌러서 펼치기</summary>
 
-내용을 입력하세요
+1. jjkj<br>
+iu65546u
+2. gfhfghfgh<br>
+::<br>
+oii96]\\
+3. iuiiyukj
+
+\2. wswwd
+
+ikklkkj
+
+\3. sadsasdas
+
+\1. as
 
 </details>
